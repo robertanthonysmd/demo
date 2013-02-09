@@ -1,3 +1,9 @@
+## Setup libraries
+
+<pre>
+$ bundle
+</pre>
+
 ## To generate static site
 
 <pre>
