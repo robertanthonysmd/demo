@@ -4,18 +4,22 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>untitled</title>
+	<title>Title</title>
 	<meta name="generator" content="TextMate http://macromates.com/">
 	<meta name="author" content="Phuong">
-	<!-- Date: 2013-02-09 -->
+
+  <LINK href="styles/base.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
 layout:  
-  <%= render '_nav.html.erb' %>
-<%= "hi #{1 + 2}" %>
 
-<%= yield %>
+  <%= render '_nav.html.erb' %>
+  <%= "hi #{1 + 2}" %>
+
+<div id="content">
+  <%= yield %>
+</div>
 
 bottom
 </body>
